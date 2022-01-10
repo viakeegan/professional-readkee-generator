@@ -72,7 +72,17 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
 
+  ## Installation
 
+  ${data.installInfo}
+
+  ## Usage
+
+  ${data.usageInfo}
+
+  ${renderLicenseSection(data.license)}
+
+  
 `;
 }
 
