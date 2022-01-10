@@ -2,6 +2,9 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Demo Video Link:
+  https://youtu.be/30MqdFK60_k
+
   ## Description
 
   This application will allow you to create a README doc using only javascript and node.js this is a demo of the application.
@@ -36,6 +39,9 @@
   
   ## Tests
   no tests are required
+
+## Screenshot
+![](./assets/images/nodesdemo.png)
 
   ## Questions
   My GitHub: [viakeegan](https://github.com/viakeegan) <br>
