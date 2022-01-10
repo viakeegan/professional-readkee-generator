@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riley-foust18/README-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riley-foust18/README-generator/issues"
+  },
+  "homepage": "https://github.com/riley-foust18/README-generator#readme"
 }
