@@ -13,10 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riley-foust18/README-generator.git"
+    "url": "https://github.com/viakeegan/professional-readkee-generator"
   },
   "bugs": {
-    "url": "https://github.com/riley-foust18/README-generator/issues"
+    "url": "https://github.com/viakeegan/professional-readkee-generator/issues"
   },
-  "homepage": "https://github.com/riley-foust18/README-generator#readme"
+  "homepage": "https://github.com/viakeegan/professional-readkee-generator#readme"
+
+  
 }
