@@ -87,7 +87,17 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() { 
+    inquirer.prompt(questions)
+    .then(function(answer) {
+      const fileName =
+        answer.title
+          .split(' ')
+          .join('') + '.md';
+      
+      writeToFile(fileName, answer);
+    });
+}
 
 // Function call to initialize app
 init();
