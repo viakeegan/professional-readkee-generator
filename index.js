@@ -8,7 +8,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the project's title? (Required)",
+        message: "What is the title of your project? (Required)",
         validate: titleInput => {
           if (titleInput) {
             return true;
@@ -21,7 +21,7 @@ const questions = [
       {
         type: "input",
         name: "projectDescription",
-        message: "Please write a short description of your project (Required)",
+        message: "Briefly give an explanation of your project. (Required)",
         validate: description => {
           if (description) {
             return true;
@@ -34,12 +34,12 @@ const questions = [
       {
         type: "input",
         name: "installInfo",
-        message: "Provide any installation instructions:",
+        message: "Provide any installation instructions here:",
       },
       {
         type: 'checkbox',
         name: 'license',
-        message: 'Select a license for this project:',
+        message: 'Which license is used for this project:',
         choices: ['Apache', 'Mozilla', 'MIT', 'GNU', 'Boost', 'ISC'],
         validate: choicesLength => {
           if (choicesLength.length <= 1) {
@@ -52,27 +52,27 @@ const questions = [
       {
         type: "input",
         name: "usageInfo",
-        message: "Describe the usage for this project:",
+        message: "Describe the main use case for this project/application:",
       },
       {
         type: "input",
         name: "contributionsInfo",
-        message: "Provide any guidlines for contributing to this project:",
+        message: "Are their any guidlines for contributing to this project:",
       },
       {
         type: "input",
         name: "testsInfo",
-        message: "Detail any tests you'd like to include:",
+        message: "Which tests would you like to include:",
       },
       {
         type: "input",
         name: "githubUsername",
-        message: "What is your GitHub username?",
+        message: "What is your GitHub username (Required)?",
       },
       {
         type: "input",
         name: "emailInfo",
-        message: "What is a good email someone can reach you?",
+        message: "What is a good email someone can reach you(Required)?",
       }
 ];
 
